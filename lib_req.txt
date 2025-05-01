@@ -8,3 +8,14 @@ Model Training
 - sklearn
 - joblib
 - xgboost
+
+JSON in:
+{
+    "text": string
+}
+
+JSON out:
+{
+    "text": string,
+    "review": bool
+}

@@ -13,4 +13,4 @@ def predict(data: Content):
 data  :   {data!r}
 result:   {prediction!r}""")
 
-    return{"text": data.text, "rating": prediction}
+    return{"text": data.text, "is_positive": prediction}

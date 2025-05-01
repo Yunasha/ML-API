@@ -14,4 +14,4 @@ def predict(new_text, model_name):
     else:
         result = result[0]
 
-    return result
+    return result == "good" # convert to bool
