@@ -10,7 +10,7 @@ function Send-API {
         -d "$json"
 }
 
-Send-API -cmd "predict" -json '
+Send-API predict '
     {
         "text": "produk berkualitas, boleh beli lagi"
     }

@@ -1,0 +1,10 @@
+API:
+- FastAPI
+- pydantic
+
+Model Training
+- Sastrawi
+- pandas
+- sklearn
+- joblib
+- xgboost
