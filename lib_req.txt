@@ -9,6 +9,10 @@ Model Training
 - joblib
 - xgboost
 
+other:
+- pwsh
+- cURL
+
 JSON in:
 {
     "text": string
